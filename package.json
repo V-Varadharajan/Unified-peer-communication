@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "elliptic": "^6.6.1",
+    "ethers": "^6.13.5",
+    "package.json": "^2.0.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "web3modal": "^1.9.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
