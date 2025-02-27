@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "elliptic": "^6.6.1",
     "ethers": "^6.13.5",
     "package.json": "^2.0.1",

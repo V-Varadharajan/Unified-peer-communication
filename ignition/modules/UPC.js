@@ -3,8 +3,9 @@
 
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-export default buildModule("CallAppModule", (m) => {
-  const callApp = m.contract("CallApp");
 
-  return { callApp };
+module.exports = buildModule("UPCModule", (m) => {
+  const upc = m.contract("UPC");
+
+  return { upc };
 });
