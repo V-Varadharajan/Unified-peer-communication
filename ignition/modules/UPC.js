@@ -6,6 +6,5 @@ import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 module.exports = buildModule("UPCModule", (m) => {
   const upc = m.contract("UPC");
-
   return { upc };
 });

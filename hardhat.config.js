@@ -2,6 +2,7 @@ require('dotenv').config();
 require("@nomicfoundation/hardhat-toolbox");
 
 // INFURA_API_KEY = 59e997192bc0411cbbfc6dc242db2596
+// 0xFAF1F37fA31CC417d1f16Cf117ddB58696B3E223
 // POLYGONSCAN_KEY = 5a20daa52d78a517d323f74b5c7cdc9715a82aab6ec11cd2435d6ac5e94a203f
 
 const POLYGON_KEY = process.env.POLYGONSCAN_KEY;
@@ -13,8 +14,8 @@ module.exports = {
     hardhat: {
     },
     polygon_amoy: {
-      url: `https://polygon-amoy.infura.io/v3/${POLYGON_KEY}`,
-      accounts: [PRIVATE_KEY]
+      url: `https://polygon-amoy.infura.io/v3/59e997192bc0411cbbfc6dc242db2596`,
+      accounts: [`5a20daa52d78a517d323f74b5c7cdc9715a82aab6ec11cd2435d6ac5e94a203f`]
     }
   },
   solidity: {
